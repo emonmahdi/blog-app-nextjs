@@ -21,11 +21,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="dark:bg-gray-900 min-h-screen flex flex-col justify-between">
         <Header />
-        <div className="px-20 py-8">{children}</div>
+        {/* <div className="px-20 py-8">{children}</div> */}
+        <main className="max-w-6xl mx-auto p-6 flex-grow">{children}</main>
         <Footer />
       </body>
     </html>
