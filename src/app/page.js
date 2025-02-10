@@ -1,10 +1,10 @@
 import Blog from "@/components/Blogs/Blog";
-import Image from "next/image";
+import HeroSlider from "@/components/HeroSlider.jsx/HeroSlider";
 
 export default function Home() {
   return (
     <>
-      <h2 className="text-3xl bg-purple-400">Next.js Blog Application</h2>
+      <HeroSlider />
       <Blog />
     </>
   );
