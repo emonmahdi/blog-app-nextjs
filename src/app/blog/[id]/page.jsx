@@ -2,169 +2,155 @@ const blogs = [
   {
     id: 1,
     title: "The Future of Web Development in 2025",
-    image: "https://rb.gy/itg63q",
+    image: "https://rb.gy/m3osrv",
     excerpt:
       "Discover the upcoming trends and innovations in web development that will shape the industry in 2025.",
     slug: "future-of-web-development",
-    published_date: "2 Jan 2025",
+    description:
+      "Web development is evolving rapidly with new technologies and trends emerging each year. In 2025, we can expect greater adoption of AI-driven development, no-code/low-code platforms, enhanced cybersecurity measures, and the rise of Web3. Progressive Web Apps (PWAs) and serverless computing will continue to gain traction, making web applications more efficient and scalable.",
   },
   {
     id: 2,
-    title: "Understanding Next.js: The Future of React Frameworks",
-    image: "https://rb.gy/itg63q",
+    title: "Top JavaScript Frameworks for Modern Web Development",
+    image: "https://rb.gy/qlsnsm",
     excerpt:
-      "Learn why Next.js is becoming the go-to framework for React developers and how it enhances performance.",
-    slug: "understanding-nextjs",
-    published_date: "2 Jan 2025",
+      "A deep dive into the most popular JavaScript frameworks in 2025 and their applications in web development.",
+    slug: "top-javascript-frameworks",
+    description:
+      "JavaScript frameworks have become an essential part of modern web development. React, Angular, Vue.js, and Svelte continue to dominate the frontend space, while Node.js and Deno power the backend. This article explores their advantages, use cases, and when to choose one over the other.",
   },
   {
     id: 3,
-    title: "Why Tailwind CSS is Taking Over Web Design",
-    image: "https://rb.gy/itg63q",
+    title: "The Rise of Web3 and Decentralized Applications (DApps)",
+    image: "https://rb.gy/ou040n",
     excerpt:
-      "Explore how Tailwind CSS is revolutionizing frontend development and improving developer efficiency.",
-    slug: "tailwind-css-revolution",
-    published_date: "2 Jan 2025",
+      "An introduction to Web3 and how decentralized applications are transforming the internet landscape.",
+    slug: "rise-of-web3",
+    description:
+      "Web3 is revolutionizing the internet by shifting control from centralized authorities to decentralized networks using blockchain technology. This article covers the fundamentals of Web3, its impact on web development, and how developers can build decentralized applications (DApps) using Ethereum, Solidity, and smart contracts.",
   },
   {
     id: 4,
-    title: "How to Build Scalable Web Applications with React",
-    image: "https://rb.gy/itg63q",
+    title: "How AI is Changing Web Development",
+    image: "https://rb.gy/vzmg7z",
     excerpt:
-      "A step-by-step guide to designing scalable and maintainable React applications for production.",
-    slug: "scalable-react-apps",
-    published_date: "2 Jan 2025",
+      "Learn how artificial intelligence is automating web development and improving user experiences.",
+    slug: "ai-in-web-development",
+    description:
+      "AI-driven development tools, such as code completion, AI-generated design, and chatbots, are transforming how websites and applications are built. This article explores the benefits of AI in web development, popular AI-powered tools, and how developers can leverage machine learning to enhance user interactions.",
   },
   {
     id: 5,
-    title: "Best Practices for API Development with Node.js",
-    image: "https://source.unsplash.com/600x400/?technology,nodejs",
+    title: "The Importance of Cybersecurity in Web Development",
+    image: "https://rb.gy/yp0946",
     excerpt:
-      "Learn the best practices and strategies for developing high-performance APIs with Node.js.",
-    slug: "nodejs-api-best-practices",
-    published_date: "2 Jan 2025",
+      "Understanding the growing need for secure web applications and best practices for web security.",
+    slug: "cybersecurity-in-web-development",
+    description:
+      "As cyber threats continue to rise, securing web applications is more important than ever. This article covers common vulnerabilities like XSS, SQL injection, and CSRF, along with best practices for ensuring secure web development, such as HTTPS, authentication mechanisms, and regular security audits.",
   },
   {
     id: 6,
-    title: "How to Secure Your Web Application Against Cyber Threats",
-    image: "https://source.unsplash.com/600x400/?technology,cybersecurity",
+    title: "The Role of Progressive Web Apps (PWAs) in 2025",
+    image: "https://tinyurl.com/25wxywyv",
     excerpt:
-      "Discover essential security practices to protect your web applications from cyber threats.",
-    slug: "web-app-security",
-    published_date: "2 Jan 2025",
+      "Why PWAs are becoming the preferred choice for mobile-friendly web applications.",
+    slug: "progressive-web-apps",
+    description:
+      "Progressive Web Apps (PWAs) offer a native app-like experience with the accessibility of web applications. This article discusses the advantages of PWAs, how they improve performance, and why businesses are adopting them for better user engagement.",
   },
   {
     id: 7,
-    title: "A Guide to Serverless Architecture with AWS Lambda",
-    image: "https://source.unsplash.com/600x400/?technology,aws",
+    title: "Serverless Computing: The Future of Scalable Applications",
+    image:
+      "https://www.xenonstack.com/hubfs/xenonstack-aws-serverless-computing.png",
     excerpt:
-      "Understand how to build scalable and cost-effective applications using AWS Lambda and serverless computing.",
-    slug: "serverless-architecture-aws",
-    published_date: "2 Jan 2025",
+      "An overview of serverless computing and its impact on modern web development.",
+    slug: "serverless-computing",
+    description:
+      "Serverless computing enables developers to build applications without managing server infrastructure. This article explains how serverless platforms like AWS Lambda, Azure Functions, and Google Cloud Functions are revolutionizing scalability, cost-efficiency, and application deployment.",
   },
   {
     id: 8,
-    title: "Introduction to GraphQL: The API Revolution",
-    image: "https://source.unsplash.com/600x400/?technology,graphql",
+    title: "Top Web Development Blogs to Follow in 2025",
+    image:
+      "https://blog.solguruz.com/wp-content/uploads/2022/09/Top-Web-Development-Trends.png",
     excerpt:
-      "Learn how GraphQL simplifies data fetching and improves the efficiency of APIs compared to REST.",
-    slug: "introduction-to-graphql",
-    published_date: "2 Jan 2025",
+      "Stay updated with the latest in web development by following these top blogs.",
+    slug: "top-web-development-blogs",
+    description:
+      "Keeping up with industry trends is crucial for web developers. This article lists the best web development blogs, including Smashing Magazine, CSS-Tricks, Dev.to, and freeCodeCamp, that provide valuable insights, tutorials, and coding tips.",
   },
   {
     id: 9,
-    title: "Why You Should Use TypeScript in Your Next Project",
-    image: "https://source.unsplash.com/600x400/?technology,typescript",
+    title: "The Evolution of UX/UI Design Trends in 2025",
+    image: "https://tinyurl.com/yskjswz3",
     excerpt:
-      "Understand the benefits of using TypeScript in JavaScript applications and how it improves code maintainability.",
-    slug: "why-use-typescript",
-    published_date: "2 Jan 2025",
-  },
-  {
-    id: 10,
-    title: "Top 10 Frontend Development Tools for 2025",
-    image: "https://source.unsplash.com/600x400/?technology,frontend",
-    excerpt:
-      "Discover the best tools for frontend developers to enhance productivity and build better web applications.",
-    slug: "top-frontend-tools-2025",
-    published_date: "2 Jan 2025",
-  },
-  {
-    id: 11,
-    title: "How to Improve Website Performance and SEO",
-    image: "https://source.unsplash.com/600x400/?technology,seo",
-    excerpt:
-      "Learn effective techniques to boost website speed, user experience, and search engine rankings.",
-    slug: "website-performance-seo",
-    published_date: "2 Jan 2025",
-  },
-  {
-    id: 12,
-    title: "Why JAMstack is the Future of Web Development",
-    image: "https://source.unsplash.com/600x400/?technology,jamstack",
-    excerpt:
-      "Discover how JAMstack architecture improves website performance, security, and scalability.",
-    slug: "jamstack-future",
-    published_date: "2 Jan 2025",
-  },
-  {
-    id: 13,
-    title: "How AI is Transforming Web Development",
-    image: "https://source.unsplash.com/600x400/?technology,ai",
-    excerpt:
-      "Explore how artificial intelligence is shaping the future of web development and automation.",
-    slug: "ai-web-development",
-    published_date: "2 Jan 2025",
-  },
-  {
-    id: 14,
-    title: "A Beginner's Guide to Docker for Web Developers",
-    image: "https://source.unsplash.com/600x400/?technology,docker",
-    excerpt:
-      "Learn how Docker helps developers containerize applications for easier deployment and scalability.",
-    slug: "docker-for-web-developers",
-    published_date: "2 Jan 2025",
-  },
-  {
-    id: 15,
-    title: "Why Microservices Architecture is Gaining Popularity",
-    image: "https://source.unsplash.com/600x400/?technology,microservices",
-    excerpt:
-      "Understand the benefits of microservices and why companies are adopting this architecture.",
-    slug: "microservices-architecture",
-    published_date: "2 Jan 2025",
+      "Explore the latest UX/UI trends that will shape the digital experience in 2025.",
+    slug: "ux-ui-trends-2025 ss",
+    description:
+      "User experience and interface design are crucial in web development. This article delves into emerging trends like dark mode, neumorphism, micro-interactions, and AI-driven personalization that will enhance user engagement in 2025.",
   },
 ];
 
 const recentBlogs = [
   {
-    id: 1,
-    title: "Understanding Next.js: The Future of React Frameworks",
-    image: "https://rb.gy/itg63q",
-    excerpt:
-      "Learn why Next.js is becoming the go-to framework for React developers and how it enhances performance.",
-    slug: "understanding-nextjs",
-    published_date: "2 Jan 2025",
-  },
-  {
-    id: 2,
-    title: "Why Tailwind CSS is Taking Over Web Design",
-    image: "https://rb.gy/itg63q",
-    excerpt:
-      "Explore how Tailwind CSS is revolutionizing frontend development and improving developer efficiency.",
-    slug: "tailwind-css-revolution",
-    published_date: "2 Jan 2025",
-  },
-  {
     id: 3,
-    title: "How to Build Scalable Web Applications with React",
-    image: "https://rb.gy/itg63q",
+    title: "The Rise of Web3 and Decentralized Applications (DApps)",
+    image: "https://rb.gy/ou040n",
     excerpt:
-      "A step-by-step guide to designing scalable and maintainable React applications for production.",
-    slug: "scalable-react-apps",
-    published_date: "2 Jan 2025",
+      "An introduction to Web3 and how decentralized applications are transforming the internet landscape.",
+    slug: "rise-of-web3",
+    description:
+      "Web3 is revolutionizing the internet by shifting control from centralized authorities to decentralized networks using blockchain technology. This article covers the fundamentals of Web3, its impact on web development, and how developers can build decentralized applications (DApps) using Ethereum, Solidity, and smart contracts.",
+  },
+  {
+    id: 4,
+    title: "How AI is Changing Web Development",
+    image: "https://rb.gy/vzmg7z",
+    excerpt:
+      "Learn how artificial intelligence is automating web development and improving user experiences.",
+    slug: "ai-in-web-development",
+    description:
+      "AI-driven development tools, such as code completion, AI-generated design, and chatbots, are transforming how websites and applications are built. This article explores the benefits of AI in web development, popular AI-powered tools, and how developers can leverage machine learning to enhance user interactions.",
+  },
+  {
+    id: 5,
+    title: "The Importance of Cybersecurity in Web Development",
+    image: "https://rb.gy/yp0946",
+    excerpt:
+      "Understanding the growing need for secure web applications and best practices for web security.",
+    slug: "cybersecurity-in-web-development",
+    description:
+      "As cyber threats continue to rise, securing web applications is more important than ever. This article covers common vulnerabilities like XSS, SQL injection, and CSRF, along with best practices for ensuring secure web development, such as HTTPS, authentication mechanisms, and regular security audits.",
+  },
+  {
+    id: 6,
+    title: "The Role of Progressive Web Apps (PWAs) in 2025",
+    image: "https://tinyurl.com/25wxywyv",
+    excerpt:
+      "Why PWAs are becoming the preferred choice for mobile-friendly web applications.",
+    slug: "progressive-web-apps",
+    description:
+      "Progressive Web Apps (PWAs) offer a native app-like experience with the accessibility of web applications. This article discusses the advantages of PWAs, how they improve performance, and why businesses are adopting them for better user engagement.",
+  },
+  {
+    id: 7,
+    title: "Serverless Computing: The Future of Scalable Applications",
+    image:
+      "https://www.xenonstack.com/hubfs/xenonstack-aws-serverless-computing.png",
+    excerpt:
+      "An overview of serverless computing and its impact on modern web development.",
+    slug: "serverless-computing",
+    description:
+      "Serverless computing enables developers to build applications without managing server infrastructure. This article explains how serverless platforms like AWS Lambda, Azure Functions, and Google Cloud Functions are revolutionizing scalability, cost-efficiency, and application deployment.",
   },
 ];
+
+export const metadata = {
+  title: "Blog Details",
+  description: "Transform your coding journey",
+};
 
 const BlogDetailsPage = async ({ params }) => {
   const id = (await params).id;
@@ -203,6 +189,9 @@ const BlogDetailsPage = async ({ params }) => {
             />
             <p className="text-lg text-gray-700 mt-6 leading-relaxed">
               {blog.excerpt}
+            </p>
+            <p className="text-lg text-gray-700 mt-6 leading-relaxed">
+              {blog.description}
             </p>
           </div>
 

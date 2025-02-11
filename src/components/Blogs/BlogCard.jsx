@@ -13,7 +13,12 @@ const BlogCard = ({blog}) => {
         className="w-full h-52 object-cover"
       />
       <div className="p-4">
-        <h2 className="text-lg font-semibold text-gray-800">{blog.title}</h2>
+        <Link
+          href={`/blog/${blog.slug}`}
+          className="mt-4 inline-block text-blue-500 hover:underline font-medium"
+        >
+          <h2 className="text-lg font-semibold text-gray-800">{blog.title}</h2>
+        </Link>
         <p className="text-sm text-gray-600 mt-2">
           {blog.excerpt.slice(0, 80)}.......
         </p>
