@@ -28,7 +28,7 @@ export default function Header() {
             Home
           </Link>
           <Link
-            href="/create"
+            href="/create-blog"
             className="text-gray-600 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
           >
             Create Post
